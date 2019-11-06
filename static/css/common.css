@@ -1,0 +1,326 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+textarea, input {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+html{
+  height: 100%;
+}
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  height: 100%;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.contentBox{
+  width: 64%;
+  margin: 0 auto;
+}
+
+.never-wrap {
+  white-space: nowrap;
+}
+
+.nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.breakall {
+  word-break: break-all;
+}
+
+.breakword {
+  word-wrap: break-word;
+}
+
+.hide-text {
+  display: block;
+  text-indent: -9999px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-v {
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.flex-main-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.el-pagination{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.flex-main-justify {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.flex-main-around {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+/* 表格 盒子 */
+.container-table{
+  margin-top: 20px;
+}
+
+.flex-cross-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.main-container {
+  position: relative;
+  height: calc(100vh - 117px);
+  min-width: 800px;
+  color: #000;
+}
+
+.imgContent>img {
+  width: 100%;
+  height: 100%;
+}
+
+.el-button{
+  /*width: 100%;*/
+}
+.display-flex{
+  display: flex;
+}
+.el-select{
+  width: 100%;
+}
+.el-tooltip__popper{
+  max-width: 500px;
+}
+.el-table th>.cell{
+  text-align: center;
+}
+/*.el-scrollbar__wrap{*/
+  /*overflow-y: hidden;*/
+/*}*/
+.display-flex-auto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f16-content{
+  font-size:16px ;
+  text-align: center;
+}
+.font-weight7 {
+  font-weight: 700;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+  width: 100%;
+}
+body .el-table th.gutter {
+  display: table-cell !important;
+}
+input{box-shadow: none;}
+[v-cloak]{diapsly:none;}
+/*input[required]:invalid,*/
+/*input:focus:invalid,*/
+/*textarea[required]:invalid,*/
+/*textarea:focus:invalid {*/
+  /*box-shadow: none;*/
+/*}*/
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+body .el-table colgroup.gutter{
+  display: table-cell!important;
+}
+body{
+  overflow-y: scroll;
+}
+
+
+
+
